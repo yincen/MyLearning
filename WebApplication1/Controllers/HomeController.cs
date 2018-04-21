@@ -36,6 +36,18 @@ namespace WebApplication1.Controllers
                 Id = 1,
                 Name = "zyc"
             });
+            ctx.Books.Add(new Book
+            {
+                Id = 1,
+                Title = "软件工程",
+                PersonId = 1
+            });
+            ctx.Books.Add(new Book
+            {
+                Id = 2,
+                Title = "C#指南",
+                PersonId = 1
+            });
             ctx.SaveChanges();
             return new ContentResult
             {
@@ -47,14 +59,7 @@ namespace WebApplication1.Controllers
         {
             var ctx = new MyDbContext();
             var person = ctx.Persons.FirstOrDefault();
-            if (person == null)
-            {
-                return new ContentResult();
-            }
-            return new ContentResult
-            {
-                Content = person.Id.ToString()
-            };
+            return View(person);
         }
     }
 }

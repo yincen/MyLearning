@@ -1,0 +1,37 @@
+﻿@model WebApplication1.Models.Person
+
+@{
+    ViewBag.Title = "Get";
+}
+
+<h2>Get</h2>
+
+<div>
+    <h4>Person</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Mobile)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Mobile)
+        </dd>
+        
+        <dt>@Html.DisplayNameFor(model=>model.Books)</dt>
+        <dd>
+            @foreach (var book in Model.Books)
+            {
+                <text>@book.Title </text>
+            }
+        </dd>
+    </dl>
+</div>

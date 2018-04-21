@@ -12,5 +12,9 @@ namespace WebApplication1.Models
         public long Id { get; set; }
 
         public string Name { get; set; }
+
+        public string Mobile { get; set; }
+
+        public virtual ICollection<Book> Books { get; set; }
     }
 }
