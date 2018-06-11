@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2015
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{F6948BCE-B7D0-4BC2-BB04-42D92CBD1827}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebOwin", "WebApplication1\WebOwin.csproj", "{F6948BCE-B7D0-4BC2-BB04-42D92CBD1827}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MqP", "MqP\MqP.csproj", "{3254E5F1-C619-4426-A9E3-AA0209E2F1E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MqC", "MqC\MqC.csproj", "{724B7D13-7EE7-4403-80D7-722BC01A7BBE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{F6948BCE-B7D0-4BC2-BB04-42D92CBD1827}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F6948BCE-B7D0-4BC2-BB04-42D92CBD1827}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F6948BCE-B7D0-4BC2-BB04-42D92CBD1827}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3254E5F1-C619-4426-A9E3-AA0209E2F1E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3254E5F1-C619-4426-A9E3-AA0209E2F1E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3254E5F1-C619-4426-A9E3-AA0209E2F1E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3254E5F1-C619-4426-A9E3-AA0209E2F1E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{724B7D13-7EE7-4403-80D7-722BC01A7BBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{724B7D13-7EE7-4403-80D7-722BC01A7BBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{724B7D13-7EE7-4403-80D7-722BC01A7BBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{724B7D13-7EE7-4403-80D7-722BC01A7BBE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
