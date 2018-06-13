@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MqP", "MqP\MqP.csproj", "{3
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MqC", "MqC\MqC.csproj", "{724B7D13-7EE7-4403-80D7-722BC01A7BBE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocketServer", "SocketServer\SocketServer.csproj", "{B6216713-2633-4F13-93DD-EE072303B5B7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{724B7D13-7EE7-4403-80D7-722BC01A7BBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{724B7D13-7EE7-4403-80D7-722BC01A7BBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{724B7D13-7EE7-4403-80D7-722BC01A7BBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6216713-2633-4F13-93DD-EE072303B5B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6216713-2633-4F13-93DD-EE072303B5B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6216713-2633-4F13-93DD-EE072303B5B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6216713-2633-4F13-93DD-EE072303B5B7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
