@@ -65,7 +65,7 @@ namespace SocketServer
 
         static void appServer_NewSessionClosed(AppSession session, CloseReason aaa)
         {
-            Console.WriteLine($"服务端 失去 来自客户端的连接" + session.SessionID + aaa);
+            Console.WriteLine($"服务端 失去 来自客户端的连接 " + session.SessionID + aaa);
             var count = appServer.GetAllSessions().Count();
             Console.WriteLine(count);
         }

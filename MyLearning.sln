@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MqC", "MqC\MqC.csproj", "{7
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocketServer", "SocketServer\SocketServer.csproj", "{B6216713-2633-4F13-93DD-EE072303B5B7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiThread", "MultiThread\MultiThread.csproj", "{2DC7FA95-9988-4D31-AD3B-CFF70F95B2AA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{B6216713-2633-4F13-93DD-EE072303B5B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B6216713-2633-4F13-93DD-EE072303B5B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B6216713-2633-4F13-93DD-EE072303B5B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DC7FA95-9988-4D31-AD3B-CFF70F95B2AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DC7FA95-9988-4D31-AD3B-CFF70F95B2AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DC7FA95-9988-4D31-AD3B-CFF70F95B2AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DC7FA95-9988-4D31-AD3B-CFF70F95B2AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
