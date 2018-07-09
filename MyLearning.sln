@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MqP", "MqP\MqP.csproj", "{3
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MqC", "MqC\MqC.csproj", "{724B7D13-7EE7-4403-80D7-722BC01A7BBE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocketServer", "SocketServer\SocketServer.csproj", "{B6216713-2633-4F13-93DD-EE072303B5B7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MySocketServer", "SocketServer\MySocketServer.csproj", "{B6216713-2633-4F13-93DD-EE072303B5B7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiThread", "MultiThread\MultiThread.csproj", "{2DC7FA95-9988-4D31-AD3B-CFF70F95B2AA}"
 EndProject
